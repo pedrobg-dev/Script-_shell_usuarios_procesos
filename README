@@ -1,0 +1,80 @@
+
+	I N S T R U C T I V O
+
+Autor: Bautista Garcia Pedro
+©Todos los derechos reservados 2021.
+
+¡ADVERTENCIA¡ 
+***Puede que en algunos sistemas o versiones anteriores los saltos y tabuladores de linea no los inteprete el bash***
+
+1. Descripcion general del programa
+
+	En el menu principal podremos observar que contamos con 5 opciones
+	En donde tendremos que seleccionar una de ellas y presionar ENTER
+	
+	OPCION 1: Manejo de archivos
+
+		Esta opcion nos solicitara ingresar el nombre del archivo que
+		deseamos buscar (tienes que ingresar la ruta completa), en caso
+		de que el archivo no exista, se te solicitara un nuevo nombre de 
+		archivo, si se encuentra el archivo, se desplegara toda la
+		informacion de ese archivo.
+		Despues aparecera un menu de opciones para realizar alguna accion
+		sobre el archivo, ingresar el numero de la opcion que deseas.
+
+		OPCION 1: Modificar lo permisos
+			Ingresar el modo octal, ejemplo: 655
+		OPCION 2: Borrar
+			Se te pidira la confirmacion, ingresa "y" para borrar
+			"n" en caso contrario
+		OPCION 3: Regresar al menu principal
+
+	OPCION 2: Manejo de procesos
+		
+		En esta opcion se desplegara otro menu donde tendras las siguientes
+		opciones.
+
+		OPCION 1: Listar la tabla de procesos (presionar barra espcaiadora
+			para ir a la siguiente pagina)
+		OPCION 2: Listar los procesos de un usuario
+			Ingresar eñ nombre del usuario, en caso de no exista se 
+			te notificara y regresara al menu anterior.
+		OPCION 3: Matar un proceso
+			Ingresar el PID del proceso, en caso de no exista se te
+			notificara, en caso contrario matara al proceso.
+		OPCION 4: Numero de procesos totales en el sistema
+			Mostrara el numero de procesos ejecutandose en el sistema.
+		OPCION 5: Regresar al menu principal
+
+	OPCION 3: Monitoreo de usuarios
+		
+		Se te solicitara ingresar el login O UID del usuario, en caso de
+		que este no se encuentre se notificara y te pedira un nuevo usuario,
+		en caso contrario, se mostraran la informacion del usuario, asi como
+		el numero tal de usuario que existen, numero total de grupos que
+		existen, numero y lista de logines de usuarios conectados, y numero
+		y lista de logines ejecutando procesos.
+		
+		
+		Para regresar el menu principal, presiona ENTER
+
+	OPCION 4: Informacion del sistema
+		
+		Esta opcion mostrara el hostname, sistema operativo y la arquitectura
+		del sistema.
+		
+		Para regresar el menu principal, presiona ENTER
+
+	OPCION 5: Salir
+		Para salir de programa, solo ingresa 5  y despues ENTER.
+
+	
+	A R C H I V O S  D E L  P R O G R A M A
+
+1. Todos los errores del programa seran redirigidos al archivo errores.log, esta se
+va a crear si ejecutas el programa por primera vez.
+
+2. El registro de los usuarios que ejecuto el programa, quedara almacenado en
+el archivo bitacora.log, esta se creara si ejecutas el programa por primera vez
+
+	
